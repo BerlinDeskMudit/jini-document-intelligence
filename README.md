@@ -1,10 +1,10 @@
 # Jini
 
-**Private Document Intelligence** — a local-first RAG workspace for personal documents.
+**Private Document Intelligence** ÔÇö a local-first RAG workspace for personal documents.
 
 Turn policies, statements, agreements, invoices, tax records, and other life-admin files into searchable answers, reminders, and structured insights.
 
-[Live demo](https://jini-document-intelligence.vercel.app) · [Developer documentation](https://github.com/0xMudit/jini-document-intelligence/tree/main/docs) · [Portfolio](https://mudityaraghav.vercel.app)
+[Live demo](https://jini-document-intelligence.vercel.app) ┬À [Developer documentation](https://github.com/BerlinDeskMudit/jini-document-intelligence/tree/main/docs) ┬À [Portfolio](https://mudityaraghav.vercel.app)
 
 ## Why this project matters
 
@@ -45,7 +45,7 @@ Open `http://localhost:5173/jini/`. The API runs at `http://localhost:8788`; Vit
 - **Synthesize** answers via Groq (optional, configure in Settings or `.env`)
 - **Track** reminders from expiry, due, warranty, and renewal dates
 - **Surface** high-value payments, subscriptions, tax coverage, and category mix
-- **Works offline** — documents and data stay on your machine
+- **Works offline** ÔÇö documents and data stay on your machine
 
 ---
 
@@ -73,7 +73,7 @@ GROQ_API_KEY=gsk_your_key_here docker compose up --build
 Requires Node.js 22+.
 
 ```bash
-git clone https://github.com/0xMudit/jini-document-intelligence.git
+git clone https://github.com/BerlinDeskMudit/jini-document-intelligence.git
 cd jini-document-intelligence
 npm install
 cp .env.example .env
@@ -100,11 +100,11 @@ Open port `8788` in the EC2 security group, then visit `http://<EC2_PUBLIC_IP>:8
 | `VITE_API_BASE` | same origin | Optional browser API origin; leave empty when using the Vite/nginx proxy |
 | `NODE_ENV` | `production` | Set `development` for pretty logging |
 | `LOG_LEVEL` | `info` | Pino log level (debug, info, warn, error) |
-| `GROQ_API_KEY` | — | Groq API key for LLM synthesis |
+| `GROQ_API_KEY` | ÔÇö | Groq API key for LLM synthesis |
 | `GROQ_MODEL` | `llama-3.3-70b-versatile` | Groq model name |
 | `COOKIE_SECURE` | `false` | Set `true` behind HTTPS |
 | `TRUST_PROXY` | `false` | Set `true` behind a reverse proxy |
-| `ALLOWED_ORIGINS` | — | Comma-separated CORS origins |
+| `ALLOWED_ORIGINS` | ÔÇö | Comma-separated CORS origins |
 
 ---
 
@@ -122,7 +122,7 @@ npm run test:watch    # watch mode
 ## CI/CD
 
 Push to `main` triggers GitHub Actions:
-1. Lint → Test → Build
+1. Lint ÔåÆ Test ÔåÆ Build
 2. Docker image built and pushed to `ghcr.io/0xmudit/jini-document-intelligence:latest`
 
 ---

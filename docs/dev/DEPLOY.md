@@ -1,4 +1,4 @@
-﻿# Deployment Guide
+# Deployment Guide
 
 ## Prerequisites
 
@@ -117,7 +117,7 @@ sudo apt-get install -y nodejs
 ### 3. Deploy
 
 ```bash
-git clone https://github.com/0xMudit/Jini.git
+git clone https://github.com/BerlinDeskMudit/jini-document-intelligence.git
 cd Jini
 npm install --omit=dev
 cp .env.example .env

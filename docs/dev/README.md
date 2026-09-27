@@ -7,7 +7,7 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/0xMudit/Jini.git
+git clone https://github.com/BerlinDeskMudit/jini-document-intelligence.git
 cd Jini
 npm install
 cp .env.example .env
